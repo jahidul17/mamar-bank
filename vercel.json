@@ -4,7 +4,8 @@
             "src": "MamerBank/wsgi.py",
             "use": "@ardnt/vercel-python-wsgi",
             "config": {
-                "maxLambdaSize": "15mb"
+                "maxLambdaSize": "15mb",
+                "runtime": "Python 3.12.3"
             }
         }
     ],
