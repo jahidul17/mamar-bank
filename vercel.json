@@ -14,5 +14,11 @@
             "src": "/(.*)",
             "dest": "MamerBank/wsgi.py"
         }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
     ]
 }
