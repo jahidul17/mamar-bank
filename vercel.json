@@ -17,7 +17,7 @@
     ],
     "rewrites": [
         {
-            "source": "/(.*)",
+            "source": "/:a*",
             "destination": "/"
         }
     ]
