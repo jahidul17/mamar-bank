@@ -1,11 +1,11 @@
 {
     "builds": [
         {
-            "src": "MamerBank/wsgi.py",
-            "use": "@ardnt/vercel-python-wsgi",
+            "src": "app.py",
+            "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
-                "runtime": "Python 3.12.3"
+                "runtime": "python3.9"
             }
         }
     ],
